@@ -104,10 +104,9 @@ main{
 .about_info{
   text-align: center;
 }
-.info_tittle{
-  margin-bottom: 0;
-  color: #757575;
+#what_i_do_description{
+  margin: 30px 150px;
 }
-.info_description{
-  margin-top: 5px;
+.skill_container{
+  display: flex;
 }
