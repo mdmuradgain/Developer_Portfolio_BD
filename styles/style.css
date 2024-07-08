@@ -90,6 +90,10 @@ main{
   margin: 0 auto;
 }
 
+main section{
+  margin-top: 130px;
+}
+
 /* About Section Styles */
 .about{
   padding: 130px;
@@ -107,6 +111,48 @@ main{
 #what_i_do_description{
   margin: 30px 150px;
 }
+
+/* Skill related styles */
 .skill_container{
   display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 30px;
+  gap: 40px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
+}
+.skill_description{
+  color: #757575;
+}
+
+/* Resume Section Style */
+.resume_colum_tittle{
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume_container{
+  display: flex;
+  gap: 50px;
+}
+.resume_item_tittle{
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume_item_institute{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.resume_item_description,.resume_item_institute{
+  color: #757575;
+}
+.download_cv{
+  text-align: center;
+  margin-top: 50px;
+  
 }
